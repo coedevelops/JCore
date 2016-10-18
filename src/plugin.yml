@@ -1,0 +1,5 @@
+name: JCore
+version: 0.1.3
+author: Coe
+main: me.Coe.J.Core
+load: STARTUP
