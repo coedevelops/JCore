@@ -11,7 +11,7 @@ import me.Coe.Reflection.PacketPlayOutChat;
 import me.Coe.Reflection.PlayerConnection;
 
 public final class FancyMessage{
-	protected static final JSONArray Json = new JSONArray();
+	private JSONArray Json = new JSONArray();
 	public FancyMessage(Object... Arguments){
 		for(int i = 0; i < Arguments.length; i++){
 			JSONObject Item = new JSONObject();
